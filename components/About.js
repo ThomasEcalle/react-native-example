@@ -20,11 +20,13 @@ export default class About extends Component {
     render() {
         return (
             <View style={globalStyle.container}>
-                <Text style={globalStyle.title}>A propos de l'application !</Text>
-                <Text style={{marginBottom: 20}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                <Text style={globalStyle.title}>{"A propos de l'application !"}</Text>
+                <Text style={{marginBottom: 20}}>{
+                    `Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Cras aliquet eget risus sed placerat. Vivamus consectetur,
                     risus a vestibulum laoreet, massa arcu vestibulum mi,
-                    non mattis mi metus finibus libero. Vivamus ac pretium mi.
+                    non mattis mi metus finibus libero. Vivamus ac pretium mi.`
+                }
                 </Text>
                 <Button
                     title={"Rechercher"}
